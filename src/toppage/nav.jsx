@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Navbar} from 'rbx'
-import ReactDOM from "react-dom";
+
 
 import "./nav.scss"
 
@@ -50,6 +50,3 @@ export default class Nav extends Component {
         )
     }
 }
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<Nav />, rootElement);
