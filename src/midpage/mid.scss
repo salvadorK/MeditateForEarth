@@ -1,0 +1,18 @@
+.mid {
+    background-image: url("../assets/HOW-DOES-IT-WORK.png");;
+    background-size: cover;
+    min-height: 70vh;
+    .columns {
+        
+        .title{
+            color: white;
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 200;
+            font-size: 64px;
+        }
+        .subtitle{
+            color: white;
+        }
+    }
+}
