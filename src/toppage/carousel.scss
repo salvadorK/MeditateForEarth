@@ -1,18 +1,24 @@
-.top {
-    background-image: url("../assets/CARROUSEL-1 copy.jpg");;
-    background-size: cover;
-    min-height: 70vh;
-    .columns {
-        
-        .title{
-            color: white;
-            font-family: "Poppins";
-            font-style: normal;
-            font-weight: 200;
-            font-size: 64px;
-        }
-        .subtitle{
-            color: white;
-        }
+.carousel {
+
+    .pic1 {
+        background-image:url("../assets/CARROUSEL-1.jpg") ;
+        background-size: auto;
+        min-height: 70vh;
+
+    }
+
+    .pic2 {
+        background-image:url("../assets/CARROUSEL-2.png") ;
+        background-size: auto;
+        background-position: center;
+        min-height: 70vh;
+
+    }
+
+    .pic3{
+        background-image:url("../assets/CARROUSEL-3.png") ;
+        background-size: auto;
+        background-position: center;
+        min-height: 70vh;
     }
 }
