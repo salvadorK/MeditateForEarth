@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import { Container, Column, Title, Level } from 'rbx'
+import {Column, Title, Level } from 'rbx'
 import "./mid.scss"
 
 export default class Mid extends Component {
     render() {
         return (
-            <Container className="mid">
-                <Column.Group>
+            
+                <Column.Group className="mid" >
                     <Column size={6} offset={6} >
                        <Level>
                            <Level.Item>
@@ -22,8 +22,8 @@ According to the Global Union of Scientists for Peace, when a relatively small f
                     </Level>
                     </Column>
                 </Column.Group>
-
-            </Container>
+           
+            
 
         )
     }
