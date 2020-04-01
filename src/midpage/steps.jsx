@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { Container, Column, Title, Hero } from 'rbx'
+import { Column, Title, Hero } from 'rbx'
 import "./steps.scss"
 
 export default class Steps extends Component {
     render() {
         return (
-            <Container className="steps">
+            <div className="steps">
                 <Hero >
                     <Title>
                     How to meditate as one...
@@ -44,9 +44,9 @@ export default class Steps extends Component {
                                      
                     </Column>
                 </Column.Group>
-            </Container>
+                </div>
         )
-    }
+     }
 }
 
 
