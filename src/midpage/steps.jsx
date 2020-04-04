@@ -29,7 +29,7 @@ export default class Steps extends Component {
                                                     </Title>
                                                 
                                                 <Title className="stepscontent" subtitle>
-                                                in the section above, what are your two daily <strong>local</strong> times to meditate simultaneously with the rest of the world. 
+                                                in the section above, what Is your daily local meditation time so you can  connect simultaneously with the rest of the world. Note: the more we are in the world who meditate at the same moment, the greater the effect For the world will be. 
                                                 </Title>
                                             
                          
@@ -47,7 +47,7 @@ export default class Steps extends Component {
                                                 </Title>
                                                 
                                                 <Title className="stepscontent" subtitle>
-                                                with people from all over the world to meditate for Earth. Five minutes prior to the meditation, you can <strong>see</strong> on a live counter, how many people are going  meditate for Earth with you.       
+                                                Ten minutes prior to the meditation, you can see on our home page how many of us are connected worldwide to meditate for Earth at the same moment and amplify the effect.       
                                                 </Title>
                                     
                             </Column>
@@ -62,12 +62,16 @@ export default class Steps extends Component {
                                        
                             <Title subtitle>
                                                 
-                                                FEELING IS THE SECRET
+                                                MEDITATE
                                                 
                                                 </Title>
                                                 <Title className="stepscontent" subtitle>
-                                                Meditate feeling love, coherence and harmony for our Earth 
-                                                <strong> or</strong> Listen to guided meditations for Earth.    
+                                                You can do you own personal meditation by feeling love and harmony for our Earth
+                                                or
+                                                Listen to guided meditations that focus intention on our mother Earth
+                                                or
+                                                Join influencers on live Earth Meditations 
+   
                                                 </Title> 
                                      
                     </Column>

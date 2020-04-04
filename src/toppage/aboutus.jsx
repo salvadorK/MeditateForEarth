@@ -936,6 +936,7 @@ export default class Aboutus extends Component {
     <br/>Chi Hung Ly      : Web Developement
     <br/>Karl Anthony    : Web Developement
     <br/>Jake Lockhart  : Translation https://www.youtube.com/channel/UCpy6fnxfGhtAK6ql9BYPWww
+    <br/>Olivier Dionne Coutya : Content Creator
     </Title>
     
     </Column>   
