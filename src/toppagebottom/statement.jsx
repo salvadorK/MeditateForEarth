@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Container, Column, Title} from 'rbx'
+import {Container, Column, Divider, Title} from 'rbx'
 import "./statement.scss"
 
 export default class Toppagebottom extends Component {
@@ -13,7 +13,7 @@ export default class Toppagebottom extends Component {
                       </Title>
                     </Column>
                 </Column.Group>
-                      
+                <Divider color="black">.</Divider>
                 <Column.Group>
                     <Column size="three-fifths"offset="one-fifth"> 
                         <Title className="font" subtitle>

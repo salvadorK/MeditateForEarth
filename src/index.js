@@ -9,6 +9,13 @@ import Steps from "./midpage/steps.jsx";
 import Nav from "./toppage/nav.jsx";  
 import Toppagebottom from "./toppagebottom/statement.jsx"; 
 import Carousel from "./toppage/carousel.jsx"; 
+import Edpage from "./educators/edpage.jsx"; 
+import Bottom from "./footer/footer.jsx"; 
+import Yellow from "./toppage/yellowbottom.jsx"; 
+import Aboutus from "./toppage/aboutus.jsx"; 
+import Contactus from "./toppage/contactus.jsx"; 
+import Whymeditate from "./toppage/whymeditate.jsx";
+import Vidpage from "./midpage/vidpage.jsx";
 
 class Index extends React.Component {
   render () {
@@ -17,9 +24,17 @@ class Index extends React.Component {
     <Content> 
         <Nav/>
         <Carousel/>
+        <Yellow/>
         <Toppagebottom />
         <Mid />
         <Steps />
+        <Vidpage/>
+        <Edpage/>
+        <Bottom/>
+        <Aboutus/>
+        <Contactus/>
+        <Whymeditate/>
+        
     </Content>
     
     );

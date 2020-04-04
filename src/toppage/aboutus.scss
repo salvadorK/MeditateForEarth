@@ -1,13 +1,15 @@
-.mid {
-    background-image: url("../assets/HOW-DOES-IT-WORK.png");;
+.about {
+    background-image: url("../assets/ABOUT-US_benjamin-davies-__U6tHlaapI-unsplash.png");;
     background-size: cover;
-    min-height: 70vh;
-    margin-top: 5em;
+    min-height: 150vh;
+    
+  
+    
    
     
         .title{
             color: white;
-            padding-top: 2em;
+            padding-top: 5em;
             padding-bottom: 1em;
             font-family: 'Poppins', sans-serif;
             font-style: normal;
@@ -20,13 +22,17 @@
             color: white;
             font-family: 'Poppins', sans-serif;
             font-weight: 300;
-            font-size: 15px;
+            font-size: 18px;
             line-height: 2em;
-            margin:1em;
-        }
+            margin:2em;
+            text-align: left;
+           
+            
+        
+    }
+}
 
-        .learnmore{
-            margin-top:30em;
-            margin-left:2em;
-        }
+.line{
+  
+    height: 1px;
 }

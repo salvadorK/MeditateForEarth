@@ -1,7 +1,10 @@
 .top {
-    background-image: url("../assets/CARROUSEL-1 copy.jpg");;
+    background-image: url("../assets/CARROUSEL-1 copy.jpg");
     background-size: cover;
+    
     min-height: 70vh;
+  
+
     .columns {
         
         .title{
@@ -15,4 +18,5 @@
             color: white;
         }
     }
+
 }
