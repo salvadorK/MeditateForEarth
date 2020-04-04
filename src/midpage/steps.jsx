@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Column, Title, Hero } from 'rbx'
+import { Column, Title, Hero, Container } from 'rbx'
 import "./steps.scss"
 
 export default class Steps extends Component {
@@ -79,7 +79,7 @@ export default class Steps extends Component {
                 </Container>
             </div>
         )
-    }
+     }
 }
 
 
