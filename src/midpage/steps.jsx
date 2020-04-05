@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Column, Title, Hero, Container } from 'rbx'
+import { Column, Title, Hero, Container} from 'rbx'
 import "./steps.scss"
 
 export default class Steps extends Component {

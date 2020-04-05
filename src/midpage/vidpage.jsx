@@ -6,7 +6,7 @@ export default class Vidpage extends Component {
     render() {
         return (
             <Container className="vidpage">
-                <Column.Group >
+                <Column.Group>
                     <Column size="half" offset="one-quarter"> 
                        <Title>
                        Guided Meditation
@@ -15,10 +15,10 @@ export default class Vidpage extends Component {
                 </Column.Group>
                 <Divider color="black">.</Divider>
                 <Column.Group>
-                    <Column size="10"offset="5"> 
+                    <Column size="half" offset="one-quarter"> 
                        
-                        <Image.Container size={128}>
-                    <Image src= {require("../assets/PLANETE_14827-NQ3ANC.png")}/>
+                        <Image.Container size={100}>
+                    <Image src= {require("../assets/bloc B.jpg")}/>
                     * Sources: Global Union of Scientists for Peace
                 </Image.Container>
                         

@@ -18,26 +18,29 @@ export default class Live extends Component {
                 <Column.Group className="live" textAlign="centered" color="warning">
                     <Column size={6}>
                       
-                                <Container>
+                                <Container className="messageaudience">
                        <Title>
-                            <Heading>
+                            <Heading > 
+                              
                            LAST WORLD MEDITATION AUDIENCE
                            </Heading>
                       </Title>
-                      <Title subtitle>
+                      <Title className="counter" subtitle>
+                     
                            <Numeric> {this.state.counter} </Numeric>
                         </Title>
                         </Container>
-                       
-                            <Button onClick={()=>{this.setState({counter: this.state.counter + 1})}}>
+                        
+                            <Button className="show" onClick={()=>{this.setState({counter: this.state.counter + 1})}}>
                                 SHOW YOUR PRESENCE
                             </Button>
                     
                     </Column>
                     <Column size={6} >
                         <Container>
-                            <Title>
+                            <Title className="show" >
                             <Heading >
+                           
                                 NEXT WORLD MEDITATION
                             </Heading>
                             </Title>

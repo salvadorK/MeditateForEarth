@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Column } from 'rbx'
+import { Column, Container } from 'rbx'
 import Swiper from 'react-id-swiper';
 import "./carousel.scss"
 import 'swiper/swiper.scss'
@@ -21,15 +21,35 @@ export default class Carousel extends Component {
            
           }
         return (
+
+            
+
+
+                <Container> 
+<div className="logo"> dvdvdVDwvadVDAAV</div>
+                    
                 <Column.Group className="carousel">
-                    <Column >
+
+                  
+
+                    
+                    <Column>
+                    
                       <Swiper {...params} >
                         <div className="pic1"></div>
                         <div className="pic2"></div>
                         <div className="pic3"></div>
                       </Swiper>
                     </Column>
+
+                    
                 </Column.Group>
+</Container>
+                 
+                    
+                 
+
+            
 
         )
     }

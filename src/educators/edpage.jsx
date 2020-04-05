@@ -19,8 +19,8 @@ export default class Edpage extends Component {
                     <Column.Group >
                         <Column size="4" >
                             <Card>
-                                <Card.Image>
-                                    <Image.Container size="4by3">
+                                <Card.Image >
+                                    <Image.Container>
                                         <Image src= {require("../assets/JOHN HAGELIN.jpg")}/>
                                     </Image.Container>
                                 </Card.Image>
@@ -34,7 +34,7 @@ export default class Edpage extends Component {
                                         </svg>
                                         </div>
                                     <Title as="p" size={4}>
-                                    JOHN HAGELIN
+                                    <a href="#@bulmaio">JOHN HAGELIN</a>{' '}
                                     </Title>
                                     <Title as="p" align="center" subtitle size={6}>
                                     <a href="#@bulmaio">@JOHN HAGELIN </a>{' '}
@@ -49,7 +49,7 @@ export default class Edpage extends Component {
                             <  br/>     
                             <Card>
                                 <Card.Image>
-                                    <Image.Container size="4by3">
+                                    <Image.Container size="16">
                                         <Image src= {require("../assets/DR JOE DISPENZA.jpg")}/>
                                     </Image.Container>
                                 </Card.Image>
@@ -78,7 +78,7 @@ export default class Edpage extends Component {
                             <  br/>     
                             <Card>
                                 <Card.Image>
-                                    <Image.Container size="4by3">
+                                    <Image.Container>
                                         <Image src= {require("../assets/BRUCE LIPTON.jpg")}/>
                                     </Image.Container>
                                 </Card.Image>
@@ -109,7 +109,7 @@ export default class Edpage extends Component {
                         <Column size="4" >
                             <Card>
                                 <Card.Image>
-                                    <Image.Container size="4by3">
+                                    <Image.Container >
                                         <Image src= {require("../assets/NASSIM-HARAMEIN-team-picture.jpg")}/>
                                     </Image.Container>
                                 </Card.Image>
@@ -137,7 +137,7 @@ export default class Edpage extends Component {
                             <  br/>     
                             <Card>
                                 <Card.Image>
-                                    <Image.Container size="4by3">
+                                    <Image.Container>
                                         <Image src= {require("../assets/Lynne McTaggart copie.jpg")}/>
                                     </Image.Container>
                                 </Card.Image>
@@ -165,7 +165,7 @@ export default class Edpage extends Component {
                             <  br/>     
                             <Card>
                                 <Card.Image>
-                                    <Image.Container size="4by3">
+                                    <Image.Container>
                                         <Image src= {require("../assets/deepak chopra.png")}/>
                                     </Image.Container>
                                 </Card.Image>
@@ -196,7 +196,7 @@ export default class Edpage extends Component {
                         <Column size="4">
                             <Card>
                                 <Card.Image>
-                                    <Image.Container size="4by3">
+                                    <Image.Container>
                                     
                                         <Image src= {require("../assets/GREGG BRADEN.jpg")}/>
                                     </Image.Container>
@@ -228,7 +228,7 @@ export default class Edpage extends Component {
                             <  br/>     
                             <Card>
                                 <Card.Image>
-                                    <Image.Container size="4by3">
+                                    <Image.Container>
                                         <Image src= {require("../assets/Eckhart Tolle.jpg")}/>
                                     </Image.Container>
                                 </Card.Image>
@@ -257,7 +257,7 @@ export default class Edpage extends Component {
                             <  br/>     
                             <Card>
                                 <Card.Image>
-                                    <Image.Container size="4by3">
+                                    <Image.Container>
                                         <Image src= {require("../assets/don-miguel RUIZ.jpg")}/>
                                     </Image.Container>
                                 </Card.Image>

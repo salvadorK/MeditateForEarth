@@ -11,7 +11,7 @@ import Toppagebottom from "./toppagebottom/statement.jsx";
 import Carousel from "./toppage/carousel.jsx"; 
 import Edpage from "./educators/edpage.jsx"; 
 import Bottom from "./footer/footer.jsx"; 
-import Yellow from "./toppage/yellowbottom.jsx"; 
+// import Yellow from "./toppage/yellowbottom.jsx"; 
 import Aboutus from "./toppage/aboutus.jsx"; 
 import Contactus from "./toppage/contactus.jsx"; 
 import Whymeditate from "./toppage/whymeditate.jsx";
@@ -27,7 +27,7 @@ class Index extends React.Component {
         <Nav/>
         <Carousel/>
         <Live />
-        <Yellow/>
+        {/* <Yellow/> */}
         <Toppagebottom />
         <Mid />
         <Steps />
