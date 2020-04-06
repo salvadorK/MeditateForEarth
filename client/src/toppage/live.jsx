@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Column, Title, Container, Button, Numeric, Heading } from 'rbx';
+import axios from 'axios';
 import moment from 'moment-timezone/builds/moment-timezone-with-data';
 import "./live.scss"
 
@@ -9,6 +10,18 @@ export default class Live extends Component {
         this.state = {
             counter: 0,
         }
+    }
+
+    handleSubmit () {
+
+        const payload = {
+            counter: this.state.counter
+        }
+        axios({
+            url: '',
+            method: '',
+            data: payload,
+        })
     }
     render() {
 
