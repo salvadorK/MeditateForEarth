@@ -1,8 +1,10 @@
 const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
+
 const Clicks = new Schema({
-  noClicks: Number,
+  location: String,
+  date: String
 })
 
 const someClicks = mongoose.model('TotalClicks', Clicks);
