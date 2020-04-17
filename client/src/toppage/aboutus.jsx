@@ -7,6 +7,7 @@ import SvgTop from "../assets/logotop.js";
 
 export default class Aboutus extends Component {
     render() {
+     
         return (
         <div>  
  

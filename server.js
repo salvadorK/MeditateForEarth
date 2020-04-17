@@ -1,33 +1,52 @@
 const express = require('express');
-const mongoose = require('mongoose');
-const morgan = require('morgan');
+const app = express();
+const http = require('http')
 const path = require('path');
+const socketIo = require('socket.io');
+const morgan = require('morgan');
+const cors = require('cors');
 const bodyParser = require('body-parser');
 
-const app = express();
+const port = process.env.PORT || 5000;
 
-const PORT = process.env.PORT || 8083;
+const someClicks = require('./models/schema.js');
+const mongoose = require('mongoose');
+
+const server = http.createServer(app);
+const io = socketIo(server);
+
 
 mongoose.connect('mongodb://localhost/meditate4earth',{
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
 
-mongoose.connection.on('connected', () => {console.log('MongoDB is connected')});
 
-// mongoose.Promise = global.Promise;
-// mongoose.connect(process.env.MONGODB_URI || `mongodb://localhost:27017/small-project`);
-
-const routes = require('./routes/api')
+app.use(express.static(path.join(__dirname, '..', 'client', 'build')));
 
 
-app.use(morgan('tiny'));
-app.use('/api',routes);
-app.use(bodyParser.json());
+io.on("connection", (socket) =>{
+  console.log("socket connected")
 
+  someClicks.find().exec((err, data) => {
+    if (err) return console.log(err);
+    socket.emit('init',data);
+  });
 
+  socket.on('clicks', (clicks) => {
+    const data = new someClicks({
+      location: clicks.location,
+      date: clicks.date,
+    });
 
+    data.save((err) => {
+      if (err) return console.log(err);
+    });
 
-app.listen(PORT, () => {
-  console.log(`app running on port ${PORT}`)
+    socket.broadcast.emit('push', data)
+  });
+ });
+
+server.listen(port, () => {
+  console.log(`app running on port ${port}`)
 });
