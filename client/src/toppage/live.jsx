@@ -99,7 +99,7 @@ export default class Live extends Component {
                             </Notification>
                     </Column>
                     
-                    <Column size={6} offset={1}>
+                    <Column size={6} >
                         <Container>
                             <Title className="next" >
                                 <Heading >
