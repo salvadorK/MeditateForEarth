@@ -79,12 +79,11 @@ export default class Live extends Component {
         
 
         return (
-                <Column.Group className="live" textAlign="centered" color="warning">
+                <Column.Group className="live" textAlign="centered" color="warning" vcentered>
                     <Column size={6}>
-                      
-                                <Container className="messageaudience">
-                       <Title>
-                            <Heading > 
+                        <Notification textAlign="centered">
+                            <Title className="last">
+                                <Heading > 
                               
                            LAST WORLD MEDITATION AUDIENCE
                            </Heading>
@@ -93,17 +92,18 @@ export default class Live extends Component {
                      
                            <Numeric> {amresult ? result1.length : result2.length} </Numeric>
                         </Title>
-                        </Container>
+                        
                         
                             <Button className="show" disabled={am || pm ? this.state.counter > 0 ? true : false : true }onClick={()=>{this.handleSubmit()}}>
                                 SHOW YOUR PRESENCE
                             </Button>
-                    
+                            </Notification>
                     </Column>
-                    <Column size={6} >
+                    
+                    <Column size={6} offset={1}>
                         <Container>
-                            <Title className="show" >
-                            <Heading >
+                            <Title className="next" >
+                                <Heading >
                            
                                 NEXT WORLD MEDITATION
                             </Heading>
@@ -111,12 +111,15 @@ export default class Live extends Component {
                             <Title subtitle>
                                Today at {meditate.tz(moment.tz.guess()).format('LT')} and {meditate2.tz(moment.tz.guess()).format('LT')} Local time
                             </Title>
+                            
+                                <Title subtitle>
+                                    
+                                    {m.tz(moment.tz.guess()).format('LLLL')}
+                            
+                                </Title>
                         </Container>
-                    
-
-                    </Column>
-                </Column.Group>
-
+                   </Column>
+                   </Column.Group>
         )
     }
 }

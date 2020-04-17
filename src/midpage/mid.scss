@@ -1,0 +1,35 @@
+.mid {
+    background-image: url("../assets/HOW-DOES-IT-WORK.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    margin-top: 5em;
+    
+
+   
+    
+        .title{
+            color: white;
+            padding-top: 2em;
+            padding-bottom: 1em;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 45px;
+            text-align: center;
+            
+        }
+        .subtitle{
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 2em;
+            margin:1em;
+        }
+
+        .learnmore{
+            margin-top:30em;
+            margin-left:2em;
+        }
+}

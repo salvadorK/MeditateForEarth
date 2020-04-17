@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import { Column, Container } from 'rbx'
+import { Column, Container,Title, Hero } from 'rbx'
 import Swiper from 'react-id-swiper';
 import "./carousel.scss"
 import 'swiper/swiper.scss'
+import SvgTop from "../assets/logotop.js";
 
 export default class Carousel extends Component {
     render() {
@@ -22,32 +23,42 @@ export default class Carousel extends Component {
           }
         return (
 
-            
+                <Container className="carousel"> 
+                  <Hero textAlign="centered">
 
-
-                <Container> 
-<div className="logo"> dvdvdVDwvadVDAAV</div>
-                    
-                <Column.Group className="carousel">
+                    <Swiper {...params} >
+                      
+                      <div className="pic1"></div>
+                      <div className="pic2"></div>
+                      <div className="pic3"></div>
+                      
+                    </Swiper>
 
                   
-
-                    
-                    <Column>
-                    
-                      <Swiper {...params} >
-                        <div className="pic1"></div>
-                        <div className="pic2"></div>
-                        <div className="pic3"></div>
-                      </Swiper>
+                    <Column.Group >
+                    <Column size={4} offset={12} className="lets"> 
+                    <Title  subtitle>
+                    Let's <strong>meditate<br></br>simultaneously<br></br></strong>for Earth
+                    </Title>
                     </Column>
-
-                    
-                </Column.Group>
-</Container>
+                    </Column.Group>
+                  
+                    <Column.Group >  
+                      <Column className="logolanding">
+                        
+                            <SvgTop/>
+                       
+                      
+                      </Column>
+                      </Column.Group>
+                      
+                   
+                       
+                        </Hero>
+                </Container>
                  
                     
-                 
+        
 
             
 

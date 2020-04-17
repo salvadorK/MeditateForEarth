@@ -2,20 +2,31 @@
     background-image: url("../assets/LEARN-MORE---HOW-DOES-IT-WORKAdobeStock_328915424.png");;
     background-size: cover;
     min-height: 70vh;
-    
-  
-    
+       
+    .level-item {
+        align-items: center;
+        display: flex;
+        flex-basis: auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        justify-content: center;
+        margin-top: 1em;
+    }
    
-    
-    .title{
+    .whytitle{
         color: white;
         padding-top: 2em;
         padding-bottom: 1em;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         font-weight: 300;
-        font-size: 64px;
+        font-size: 45px;
         text-align: center;
+        margin-top:0em;
+
+        strong{
+            color: white;
+        }
 
         .subtitle{
             color: white;
@@ -24,38 +35,22 @@
             font-size: 18px;
             line-height: 2em;
             margin:2em;
-            text-align: left;
-           
-            
-        
-    }
+            text-align: left;     
+        }
+    }    
 }
-        
-    }
-
-
-
-.line{
-  
-    height: 1px;
-
-   
-}
-
-
-
-
-
 
 .statement {
+
     .title {
     background-size: cover;
     text-align: center;
     font-size: 45px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;;
+    font-weight: 300;;
     margin-bottom: -0.5em;
     }
+    
     .font {
         font-size: 1em;
         line-height: 2em;
@@ -63,6 +58,7 @@
         font-weight: 300;
         margin:1em;
     }
+    
     .tuning{
         text-align: center;
         font-size: 36px;
@@ -77,5 +73,10 @@
         line-height: 2em;
         margin-right:2em;
         margin-left: 2em;
+        margin-bottom: 3em;
+    }
+
+    .image{
+        margin:2em;
     }
 }

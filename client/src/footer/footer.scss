@@ -1,9 +1,30 @@
 .bottomcolor {
-    background-image: linear-gradient(rgb(252, 235, 189),rgb(248, 222, 143),#FBBA00);
-    background-position-x: center;
-    margin-top: 3em;
-    
-    
-    min-height: 20vh;
-    min-width: 100%;
+  background-image: linear-gradient(rgb(252, 235, 189),rgb(248, 222, 143),#FBBA00);
+  background-position-x: center;
+  min-width: 100%;
+   
+  .yellowmargintop{
+    text-align: center;
   }
+
+  .social{
+    text-align: center;
+  }
+
+  .website{
+    text-align: center; 
+
+    .contactus{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 15px;      
+    }
+    
+    .emailaddress{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 12px;      
+    }    
+  }
+}
+

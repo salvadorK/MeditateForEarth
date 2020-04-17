@@ -2,37 +2,41 @@
     background-image: url("../assets/ABOUT-US_benjamin-davies-__U6tHlaapI-unsplash.png");;
     background-size: cover;
     min-height: 150vh;
-    
-  
-    
-   
-    
-        .title{
-            color: white;
-            padding-top: 5em;
-            padding-bottom: 1em;
-            font-family: 'Poppins', sans-serif;
-            font-style: normal;
-            font-weight: 300;
-            font-size: 45px;
-            text-align: center;
-            
-        }
-        .subtitle{
-            color: white;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 300;
-            font-size: 18px;
-            line-height: 2em;
-            margin:2em;
-            text-align: left;
-           
-            
-        
+    margin-bottom: 1.5em;
+      
+    .level-item {
+        align-items: center;
+        display: flex;
+        flex-basis: auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        justify-content: center;
+        margin-top: 1em;
     }
-}
-
-.line{
-  
-    height: 1px;
+    
+    .title{
+        color: white;
+        padding-top: 5em;
+        padding-bottom: 1em;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 45px;
+        text-align: center;
+        margin-top:-3em;            
+    }
+    
+    .subtitle{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 2em;
+        margin:1.5em;
+        text-align: left;           
+           
+        strong{
+            color: white;       
+        }        
+    }
 }

@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/salvadorK/MeditateForEarth#readme",
   "dependencies": {
+    "@progress/kendo-react-form": "^3.12.0",
     "axios": "^0.19.2",
     "concurrently": "^5.1.0",
     "cors": "^2.8.5",
@@ -28,6 +29,8 @@
     "http": "0.0.1-security",
     "mongoose": "^5.9.7",
     "morgan": "^1.10.0",
+    "react-bulma-components": "^3.2.0",
+    "react-hook-form": "^5.4.2",
     "socket.io": "2.0.3"
   }
 }

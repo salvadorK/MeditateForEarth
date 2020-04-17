@@ -2,29 +2,34 @@
     background-image: url("../assets/CONTACT_US-jeremy-thomas-pq2DJBntZW0-unsplash.png");;
     background-size: cover;
     min-height: 100vh;
-    
-    
+    margin-bottom: 2em;  
   
-    
-   
-    
-        .title{
-            color: white;
-            padding-top: 2em;
-            padding-bottom: 1em;
-            font-family: 'Poppins', sans-serif;
-            font-style: normal;
-            font-weight: 300;
-            font-size: 64px;
-            text-align: center;
-            
-            
-        }
- 
-}
+    .level-item {
+        align-items: center;
+        display: flex;
+        flex-basis: auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        justify-content: center;
+        margin-top: 1em;
+    }
 
-.line{
-    height: 1px;
+    .subtitle{
+        color:white;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 64px;
+        text-align: center;
+        margin-top:0em;
+       
+        strong{
+            color: white;
+            font-weight: 400;   
+        }
+    }       
 }
 
 .infomessage{
@@ -33,5 +38,7 @@
 }
 
 .inputmessage{
-    margin-top: 3em;
+    margin-top: 2em;
+    color: black;
+    font-weight: 300;
 }

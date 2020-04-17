@@ -1,24 +1,48 @@
 .live {
-    height: 40vh;
+    height: 25vh;
     background-image: linear-gradient(#FBBA00,white);
-    // margin-top:-2em;
+    margin-top: -2em;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
  
-    .messageaudience{
-        margin-top:2em;
-        
-
-        .counter{
-            margin-top:1em;
-        }
+    .last{
+        margin-top:0.5em;
+        margin-left:-3em;      
     }
 
-  
+    .next{
+        margin-top:-1.6em;
+    }
 
     .show{
-        margin-top:1em;
-        margin-left: -1em;
-       
+       font-size: 0.7em;
+       margin-left:-5em;
+       margin-top: -4.5em;
+       font-weight: 600;   
     }
-    
 }
 
+.number {
+    align-items: center;
+    background-color: transparent;
+    border-radius: 0px;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2em;
+    justify-content: center;
+    margin-top: -3em;
+    min-width: 2.5em;
+    padding: -2.5rem 2.5rem;
+    text-align: center;
+    vertical-align: top;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.notification {
+    background-color: transparent;  
+    position: relative;
+}
+  
