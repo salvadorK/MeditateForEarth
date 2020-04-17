@@ -29,21 +29,25 @@ io.on("connection", (socket) =>{
   console.log("socket connected")
 
   someClicks.find().exec((err, data) => {
-    if (err) return console.log(err);
+
     socket.emit('init',data);
   });
 
-  socket.on('clicks', (clicks) => {
+  socket.on('clicks', async clicks => {
+
+    const chatdb = await someClicks.find();
+  
+      io.emit('init',chatdb);
+
     const data = new someClicks({
       location: clicks.location,
       date: clicks.date,
     });
 
-    data.save((err) => {
-      if (err) return console.log(err);
-    });
-
-    socket.broadcast.emit('push', data)
+    await data.save()
+    const chatdb2 = await someClicks.find();
+        
+      io.emit('init',chatdb2);
   });
  });
 
