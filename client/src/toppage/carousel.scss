@@ -1,0 +1,80 @@
+.carousel {
+    position:relative; 
+    min-height: 70vh;
+    margin-left:-20em;
+    
+    
+    .pic1 {
+        background-image:url("../assets/CARROUSEL-1-NO-TEXT.jpg") ;
+        background-size: cover;
+        background-position: center;
+        min-height: 70vh;
+        margin-right: 20em;
+        margin-left: -8em;
+        min-width:120vh;    
+    }
+
+    .pic2 {
+        background-image:url("../assets/CARROUSEL-2.png") ;
+        background-size: cover;
+        background-position: center;
+        min-height: 70vh;
+        margin-left: -20em;    
+    }
+
+    .pic3{
+        background-image:url("../assets/CARROUSEL-3.png") ;
+        background-size: cover;
+        background-position: center;
+        min-height: 70vh;
+        margin-right:3em;            
+    }
+
+    
+
+     .logolanding{   
+        position: absolute;
+        top: 0em;
+        z-index: 2;
+        left: 25em;
+
+     }
+
+
+     .subtitle {
+        color: white;
+        font-size: 45px;
+        font-weight: 300;
+        line-height: 1.125;
+
+        strong{
+            color: white; 
+        }
+    }
+     
+
+
+    }
+   
+    .lets{
+        position: absolute;
+        text-align: center;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 45px;
+        margin-top:-6em;
+        z-index:50;
+        left: 7.3em;
+        
+        strong{
+            color: white; 
+        }
+     } 
+     
+    
+      
+    
+    
+    

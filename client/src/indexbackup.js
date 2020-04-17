@@ -17,6 +17,9 @@ import Contactus from "./toppage/contactus.jsx";
 import Whymeditate from "./toppage/whymeditate.jsx";
 import Vidpage from "./midpage/vidpage.jsx";
 import Live from "./toppage/live.jsx";
+import Moredescription from "./educators/moredescription.jsx";
+import App from "./example";
+
 
 
 class Index extends React.Component {
@@ -34,9 +37,11 @@ class Index extends React.Component {
         <Vidpage/>
         <Edpage/>
         <Bottom/>
-        <Aboutus/>
-        <Contactus/>
+        {/* <Aboutus/> */}
+        {/* <Contactus/> */}
         <Whymeditate/>
+        {/* <Moredescription/> */}
+        {/* <App/> */}
         
     
         

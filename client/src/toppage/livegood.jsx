@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Column, Title, Container, Button, Numeric, Heading } from 'rbx';
+// import axios from 'axios';
 import moment from 'moment-timezone/builds/moment-timezone-with-data';
 import "./live.scss"
 
@@ -10,6 +11,18 @@ export default class Live extends Component {
             counter: 0,
         }
     }
+
+    // handleSubmit () {
+
+    //     const payload = {
+    //         counter: this.state.counter
+    //     }
+    //     axios({
+    //         url: '',
+    //         method: '',
+    //         data: payload,
+    //     })
+    // }
     render() {
 
         let m = moment.tz("2020-04-05 08:00", "America/Los_Angeles");
@@ -25,8 +38,9 @@ export default class Live extends Component {
                            LAST WORLD MEDITATION AUDIENCE
                            </Heading>
                       </Title>
+
                       <Title className="counter" subtitle>
-                     
+                                     
                            <Numeric> {this.state.counter} </Numeric>
                         </Title>
                         </Container>
@@ -38,7 +52,7 @@ export default class Live extends Component {
                     </Column>
                     <Column size={6} >
                         <Container>
-                            <Title className="show" >
+                            <Title className="next" >
                             <Heading >
                            
                                 NEXT WORLD MEDITATION

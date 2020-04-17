@@ -79,7 +79,5 @@ export default class Steps extends Component {
                 </Container>
             </div>
         )
-     }
-}
-
-
+        }
+    }
