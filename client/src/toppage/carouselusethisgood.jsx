@@ -23,8 +23,11 @@ export default class Carousel extends Component {
           }
         return (
 
+            
+
+
                 <Container className="carousel"> 
-                  <Hero textAlign="centered">
+                  <Hero>
 
                     <Swiper {...params} >
                       
@@ -34,33 +37,28 @@ export default class Carousel extends Component {
                       
                     </Swiper>
 
-                  
-                    <Column.Group >
+                  </Hero>
 
-                    <Column size={4} offset={12} className="lets"> 
-
-                    <Title  subtitle>
-                    Let's <strong>meditate<br></br>simultaneously<br></br></strong>for Earth
-                    </Title>
-                    </Column>
-                    </Column.Group>
-                  
-                    <Column.Group >  
-                      <Column className="logolanding">
+                  <Container >
+                    <Column.Group>  
+                      <Column>
                         
-                            <SvgTop/>
-                       
+                        <Title className="logolanding" ><SvgTop/>
+                        </Title>
                       
                       </Column>
-                      </Column.Group>
                       
-                   
-                       
-                        </Hero>
+                      <Column size="full">
+                        
+                        <Title subtitle>Let's <strong>meditate<br></br>simultaneously</strong><br></br>for Earth</Title>
+                      
+                      </Column>                                          
+                    </Column.Group>
+                  </Container>        
                 </Container>
                  
                     
-        
+                 
 
             
 

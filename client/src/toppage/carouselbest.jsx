@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Column, Container,Title, Hero } from 'rbx'
+import { Column, Container,Title, Hero, Notification } from 'rbx'
 import Swiper from 'react-id-swiper';
 import "./carousel.scss"
 import 'swiper/swiper.scss'
@@ -35,15 +35,7 @@ export default class Carousel extends Component {
                     </Swiper>
 
                   
-                    <Column.Group >
 
-                    <Column size={4} offset={12} className="lets"> 
-
-                    <Title  subtitle>
-                    Let's <strong>meditate<br></br>simultaneously<br></br></strong>for Earth
-                    </Title>
-                    </Column>
-                    </Column.Group>
                   
                     <Column.Group >  
                       <Column className="logolanding">
@@ -52,10 +44,13 @@ export default class Carousel extends Component {
                        
                       
                       </Column>
-                      </Column.Group>
+                    
+                      <Column className="lets"> 
+                        
+                        Let's <strong>meditate<br></br>simultaneously</strong><br></br>for Earth
                       
-                   
-                       
+                      </Column>                                          
+                    </Column.Group>
                         </Hero>
                 </Container>
                  

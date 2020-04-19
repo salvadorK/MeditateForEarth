@@ -85,6 +85,7 @@ export default class Live extends Component {
                             <Title className="last">
                                 <Heading > 
                                    LAST WORLD MEDITATION AUDIENCE
+
                            </Heading>
                       </Title>
                       <Title className="counter" subtitle>
@@ -98,17 +99,19 @@ export default class Live extends Component {
                             </Button>
                             </Notification>
                     </Column>
-                    
+
                     <Column size={6} >
                         <Container>
                             <Title className="next" >
                                 <Heading >
                                      NEXT WORLD MEDITATION
+
                             </Heading>
                             </Title>
                             <Title className="todaytime" subtitle>
                                Today at {meditate.tz(moment.tz.guess()).format('LT')} and {meditate2.tz(moment.tz.guess()).format('LT')} Local time
                             </Title>
+                            
                         </Container>
                    </Column>
                    </Column.Group>
