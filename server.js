@@ -3,6 +3,7 @@ const app = express();
 const http = require('http')
 const path = require('path');
 const socketIo = require('socket.io');
+const nodemailer = require('nodemailer');
 const morgan = require('morgan');
 const cors = require('cors');
 const bodyParser = require('body-parser');
@@ -15,12 +16,10 @@ const mongoose = require('mongoose');
 const server = http.createServer(app);
 const io = socketIo(server);
 
-
 mongoose.connect('mongodb://localhost/meditate4earth',{
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
-
 
 app.use(express.static(path.join(__dirname, '..', 'client', 'build')));
 
@@ -29,7 +28,6 @@ io.on("connection", (socket) =>{
   console.log("socket connected")
 
   someClicks.find().exec((err, data) => {
-
     socket.emit('init',data);
   });
 
@@ -49,7 +47,43 @@ io.on("connection", (socket) =>{
         
       io.emit('init',chatdb2);
   });
+
+
+  socket.on('contact', data => {
+    // var smtpTransport = nodemailer.createTransport({
+    //   service: 'Gmail',
+    //   port: 465,
+    //   auth: {
+    //     user: 'USERNAME',
+    //     pass: 'PASSWORD'
+    //   }
+    // });
+    
+    var mailOptions = {
+      from: data.Email,
+      to: 'ENTER_YOUR_EMAIL',
+      subject: data.Subject,
+      html: `<p>${data.Name}</p>
+              <p>${data.Email}</p>
+              <p>${data.Message}</p>`
+    };
+    
+    console.log(mailOptions);
+    
+    // smtpTransport.sendMail(mailOptions,
+    // (error, response) => {
+    //   if(error) {
+    //     res.send(error)
+    //   }else {
+    //     res.send('Success')
+    //   }
+    //   smtpTransport.close();
+    // });
+    
+    });
  });
+
+
 
 server.listen(port, () => {
   console.log(`app running on port ${port}`)

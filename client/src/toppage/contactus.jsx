@@ -4,13 +4,17 @@ import "./contactus.scss"
 import Nav from "../toppage/nav.jsx";  
 import Bottom from "../footer/footer.jsx"; 
 import SvgTop from "../assets/logotop.js";
+import socketIOClient from 'socket.io-client';
 import { useForm, Controller } from "react-hook-form";
 import { Form } from "react-bulma-components";
 
 export default function Contactus() {
-    const { handleSubmit, errors, control } = useForm();
-    const onSubmit = data => {
-      console.log(data);
+    const { handleSubmit, errors, control, reset } = useForm();
+    const onSubmit = (data,e) => {
+        reset();
+        const socket = socketIOClient('http://localhost:5000/');
+        socket.emit('contact',data);
+  
     };
         return (
         
@@ -83,7 +87,7 @@ export default function Contactus() {
                             control={control}
                             defaultValue=""
                             placeholder="Email"
-                            type="Email"
+                            type="email"
                         />
                     </Form.Control>
                         <Form.Help color="danger">
