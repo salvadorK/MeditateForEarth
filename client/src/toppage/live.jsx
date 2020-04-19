@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Column, Title, Container, Button, Numeric, Heading, Notification } from 'rbx';
+import { Column, Title, Container, Button, Numeric, Heading, Notification} from 'rbx';
 import * as moment from 'moment-timezone/builds/moment-timezone-with-data';
 import socketIOClient from 'socket.io-client';
 import "./live.scss"
@@ -84,8 +84,8 @@ export default class Live extends Component {
                         <Notification textAlign="centered">
                             <Title className="last">
                                 <Heading > 
-                              
-                           LAST WORLD MEDITATION AUDIENCE
+                                   LAST WORLD MEDITATION AUDIENCE
+
                            </Heading>
                       </Title>
                       <Title className="counter" subtitle>
@@ -99,16 +99,16 @@ export default class Live extends Component {
                             </Button>
                             </Notification>
                     </Column>
-                    
-                    <Column size={6} offset={1}>
+
+                    <Column size={6} >
                         <Container>
                             <Title className="next" >
                                 <Heading >
-                           
-                                NEXT WORLD MEDITATION
+                                     NEXT WORLD MEDITATION
+
                             </Heading>
                             </Title>
-                            <Title subtitle>
+                            <Title className="todaytime" subtitle>
                                Today at {meditate.tz(moment.tz.guess()).format('LT')} and {meditate2.tz(moment.tz.guess()).format('LT')} Local time
                             </Title>
                             
