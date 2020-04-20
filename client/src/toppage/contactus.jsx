@@ -45,17 +45,20 @@ export default function Contactus() {
           </Hero>
 
           <Container className="infomessage">
+          <Column.Group>
+          <Column size={10} offset={1} >
+
             <form onSubmit={handleSubmit(onSubmit)}>
               
               <br/>
-              We’d be happy to hear about you if you have any questions or suggestions. <br/>We are opened to any world peace incentives partnership requests.
+              We’d be happy to hear about you if you have any questions or suggestions. We are opened to any world peace incentives partnership requests.
               <br/>One Love 
               <br/><br/>
-              Or contact us by email on <strong>info@meditateforearth.com</strong>
+              Or contact us by email on <a href="mailto:info@meditateforearth.com">info@meditateforearth.com</a>
                       
                 <Title subtitle className="inputmessage">CONTACT US</Title>
        
-                    <Form.Field>
+                    <Form.Field className="inputfield">
             
                         <label>Name</label>
             
@@ -75,7 +78,7 @@ export default function Contactus() {
                         </Form.Help>
                     </Form.Field>
 
-                    <Form.Field>
+                    <Form.Field className="inputfield">
             
                         <label>Email</label>
             
@@ -95,7 +98,7 @@ export default function Contactus() {
                         </Form.Help>
                     </Form.Field>
           
-                    <Form.Field>
+                    <Form.Field className="inputfield">
             
                         <label>Subject</label>
             
@@ -115,7 +118,7 @@ export default function Contactus() {
                         </Form.Help>
                     </Form.Field>
 
-                    <Form.Field>
+                    <Form.Field className="inputfield">
             
                         <label>Message</label>
             
@@ -132,7 +135,7 @@ export default function Contactus() {
                     </Form.Control>
                     </Form.Field>
 
-                    <Form.Field kind="group" align="right">
+                    <Form.Field kind="group" align="right" className="inputfield">
                         <Form.Control>
                             
                             <Button color="warning" >Send</Button>
@@ -150,6 +153,8 @@ export default function Contactus() {
             
 
             </form>
+            </Column>
+            </Column.Group>
           </Container>
 
 

@@ -2,7 +2,7 @@
     background-image: url("../assets/CONTACT_US-jeremy-thomas-pq2DJBntZW0-unsplash.png");;
     background-size: cover;
     min-height: 100vh;
-    margin-bottom: 2em;  
+    margin-bottom: 2em; 
   
     .level-item {
         align-items: center;
@@ -29,16 +29,20 @@
             color: white;
             font-weight: 400;   
         }
-    }       
+    }  
 }
 
 .infomessage{
-    margin: 2em;
-    text-align: left;
+    margin-bottom: 2em;
+    text-align: center;
 }
 
 .inputmessage{
     margin-top: 2em;
     color: black;
     font-weight: 300;
+}
+
+.inputfield{
+    margin:1.5em;
 }

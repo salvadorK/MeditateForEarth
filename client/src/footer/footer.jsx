@@ -47,7 +47,16 @@ export default class Bottom extends Component {
                                
                             </Title> 
                         </Column>                                                
-                    </Column.Group>           
+                    </Column.Group>   
+                    <Column.Group >                       
+                        <Column className="website" size="8" offset="2">
+                            <Title className="copyright">
+                           
+                            Copyright © 2020 Meditate For Earth. All rights reserved
+                        
+                            </Title>
+                        </Column>                                                
+                    </Column.Group>          
                 </Container>   
 
 

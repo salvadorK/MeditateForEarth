@@ -33,10 +33,20 @@
         font-size: 15px;
         line-height: 2em;
         margin:1.5em;
-        text-align: left;           
+        text-align: left;
+        @media only screen and (max-device-width: 480px) {
+            text-align: center;
+          }           
            
         strong{
             color: white;       
         }        
+    }
+    
+    a{
+        color: #0D5E8B;
+    }
+    a:hover{
+        color: white
     }
 }
