@@ -50,14 +50,14 @@ io.on("connection", (socket) =>{
 
 
   socket.on('contact', data => {
-    // var smtpTransport = nodemailer.createTransport({
-    //   service: 'Gmail',
-    //   port: 465,
-    //   auth: {
-    //     user: 'USERNAME',
-    //     pass: 'PASSWORD'
-    //   }
-    // });
+    var smtpTransport = nodemailer.createTransport({
+      service: 'Yahoo',
+      port: 465,
+      auth: {
+        user: 'info@meditateforearth.org',
+        pass: '$Meditate4earth$'
+      }
+    });
     
     var mailOptions = {
       from: data.Email,
@@ -70,15 +70,15 @@ io.on("connection", (socket) =>{
     
     console.log(mailOptions);
     
-    // smtpTransport.sendMail(mailOptions,
-    // (error, response) => {
-    //   if(error) {
-    //     res.send(error)
-    //   }else {
-    //     res.send('Success')
-    //   }
-    //   smtpTransport.close();
-    // });
+    smtpTransport.sendMail(mailOptions,
+    (error, response) => {
+      if(error) {
+        res.send(error)
+      }else {
+        res.send('Success')
+      }
+      smtpTransport.close();
+    });
     
     });
  });
