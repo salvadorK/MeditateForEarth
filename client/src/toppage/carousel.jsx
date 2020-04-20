@@ -36,7 +36,7 @@ export default class Carousel extends Component {
 
                   
                     <Column.Group >
-                    <Column size={4} offset={12} className="lets"> 
+                    <Column size={4} offset={9} className="lets"> 
                     <Title  subtitle>
                     Let's <strong>meditate<br></br>simultaneously<br></br></strong>for Earth
                     </Title>
