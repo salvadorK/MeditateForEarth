@@ -26,6 +26,9 @@
         font-weight: 300;
         font-size: 15px;
         text-align: left;
+        @media only screen and (max-device-width: 480px) {
+            text-align: center;
+          }
         line-height: 2em;
         margin:1.5em;
         

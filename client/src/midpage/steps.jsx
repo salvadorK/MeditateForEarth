@@ -85,10 +85,10 @@ export default class Steps extends Component {
                             <Title className="stepscontent" subtitle>
             
                                 You can do you own personal meditation by feeling love and harmony for our Earth
-                                <br/><strong>or</strong>
-                                <br/>Listen to guided meditations that focus intention on our mother Earth
-                                <br/><strong>or</strong>
-                                <br/>Join influencers on live Earth Meditations 
+                                <h1><strong>or</strong></h1>
+                                Listen to guided meditations that focus intention on our mother Earth
+                                <h1><strong>or</strong></h1>
+                                Join influencers on live Earth Meditations 
    
                             </Title>                  
                         </Column>

@@ -9,6 +9,7 @@ import Toppagebottom from "./toppagebottom/statement.jsx";
 import Carousel from "./toppage/carousel.jsx"; 
 import Bottom from "./footer/footer.jsx"; 
 import Live from "./toppage/live.jsx"; 
+import Vidpage from "./midpage/vidpage.jsx";
 
 
 const Home = () => (
@@ -25,6 +26,7 @@ const Home = () => (
             <Toppagebottom />
             <Mid />
             <Steps /> 
+            <Vidpage/>
             <Bottom/>
          </Generic>
 

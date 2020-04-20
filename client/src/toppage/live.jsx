@@ -80,12 +80,12 @@ export default class Live extends Component {
 
         return (
                 <Column.Group className="live" textAlign="centered" color="warning" vcentered>
-                    <Column size={6}>
-                        <Notification textAlign="centered">
-                            <Title className="last">
+                    <Column size={6} >
+                        <Notification>
+                            <Title className="lastcurrent">
                                 <Heading > 
-                                   LAST WORLD MEDITATION AUDIENCE
-
+                                   {am || pm ? "current " : "last "}
+                                 WORLD MEDITATION AUDIENCE
                            </Heading>
                       </Title>
                       <Title className="counter" subtitle>
@@ -99,13 +99,11 @@ export default class Live extends Component {
                             </Button>
                             </Notification>
                     </Column>
-
                     <Column size={6} >
                         <Container>
                             <Title className="next" >
                                 <Heading >
                                      NEXT WORLD MEDITATION
-
                             </Heading>
                             </Title>
                             <Title className="todaytime" subtitle>

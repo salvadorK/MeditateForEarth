@@ -14,7 +14,7 @@ export default class Nav extends Component {
             <Navbar.Menu >
             <Navbar.Segment align="end">
               
-              <Navbar.Item><Link to="/">Home</Link></Navbar.Item>
+              <Navbar.Item className="homebutton"><Link to="/">Home</Link></Navbar.Item>
               <Navbar.Item dropdown hoverable className="wholink">
                 <Navbar.Link arrowless>Who we are</Navbar.Link> 
                   <Navbar.Dropdown>
@@ -26,7 +26,7 @@ export default class Nav extends Component {
       
                   <Divider vertical color={"warning"}></Divider>
        
-                <Navbar.Item>English</Navbar.Item>
+                <Navbar.Item className="homebutton">English</Navbar.Item>
             </Navbar.Segment>
           </Navbar.Menu>
         </Navbar>

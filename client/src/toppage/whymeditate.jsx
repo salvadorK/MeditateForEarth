@@ -54,7 +54,7 @@ export default class Whymeditate extends Component {
                             <Title className="font" subtitle>
                         
                                 Many of us feel insignificant and helpless when confronted with the enormity of the problems our planet faces. The good news is that <strong>we can</strong> effect change <strong>simply</strong>simply through the portal of our mind and our heart. Peer reviewed scientific studies show that when a relatively small fraction of a society engage in meditation <strong>together</strong>, with the intention of peace and harmony, they can significantly <strong>reduce</strong> crime, war, social stress and <strong>improve</strong> the effectiveness of governments. 
-                                <br/>Although things may not change over night, the Global Union of Scientists for Peace (GUSP.org) have shown that groups <strong>epetitively</strong>r practicing meditation <strong>together</strong>, creates peace and harmony in their countries. Our own power <strong>amplified</strong> by uniting as a collective, enables us to create peace, coherence and harmony in the field of our surrounding world. 
+                                <br/>Although things may not change over night, the Global Union of Scientists for Peace (GUSP.org) have shown that groups <strong>repetitively</strong> practicing meditation <strong>together</strong>, creates peace and harmony in their countries. Our own power <strong>amplified</strong> by uniting as a collective, enables us to create peace, coherence and harmony in the field of our surrounding world. 
                                 source: https://www.gusp.org/brochure/?page=1 
                         
                             </Title>

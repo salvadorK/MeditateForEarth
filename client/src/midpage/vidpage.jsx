@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
-import {Container, Column, Divider, Title, Image} from 'rbx'
+import {Container, Column, Divider, Title} from 'rbx'
 import "./vidpage.scss"
+import ReactPlayer from 'react-player'
+
 
 export default class Vidpage extends Component {
     render() {
@@ -8,20 +10,24 @@ export default class Vidpage extends Component {
             <Container className="vidpage">
                 <Column.Group>
                     <Column size="half" offset="one-quarter"> 
-                       <Title>
-                       Guided Meditation
+                       <Title className="titleguided" subtitle>
+                       <strong>Guided</strong> Meditation
                       </Title>
                     </Column>
                 </Column.Group>
+
                 <Divider color="black">.</Divider>
-                <Column.Group>
+                
+                <Column.Group className="videotopspacing">
                     <Column size="half" offset="one-quarter"> 
                        
-                        <Image.Container size={100}>
-                    <Image src= {require("../assets/bloc B.jpg")}/>
-                    * Sources: Global Union of Scientists for Peace
-                </Image.Container>
-                        
+                    <ReactPlayer
+          className='react-player'
+          url='https://youtu.be/ASBJnfDSRhg'
+          width='100%'
+          playing
+          controls
+        />
                     </Column>      
                 </Column.Group>
             </Container>   
