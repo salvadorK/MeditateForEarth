@@ -37,6 +37,9 @@
         font-weight: 500;
         line-height: 2em;
         text-align: left;
+        @media only screen and (max-device-width: 480px) {
+            text-align: center;
+          }
         margin: 2em;
 
           h1{

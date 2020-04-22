@@ -18,9 +18,9 @@ export default class Nav extends Component {
               <Navbar.Item dropdown hoverable className="wholink">
                 <Navbar.Link arrowless>About</Navbar.Link> 
                   <Navbar.Dropdown>
-                    <Navbar.Item><Link to="/about">About us</Link></Navbar.Item> 
-                    <Navbar.Item><Link to="/educators">Educators</Link></Navbar.Item>
-                    <Navbar.Item><Link to="/contact">Contact</Link></Navbar.Item>
+                    <Navbar.Item as="span"><Link to="/about">About us</Link></Navbar.Item> 
+                    <Navbar.Item as="span"><Link to="/educators">Educators</Link></Navbar.Item>
+                    <Navbar.Item as="span"><Link to="/contact">Contact</Link></Navbar.Item>
                   </Navbar.Dropdown>
                 </Navbar.Item>
       
