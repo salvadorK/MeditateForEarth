@@ -22,9 +22,8 @@ export default class Toppagebottom extends Component {
                     <Column size="8"offset="2"> 
                         <Title className="insidemessage" subtitle>
                         
-                            Meditate for Earth is a tool that allows anyone from around the world to find a <strong>common set time</strong> and join a collective of meditators who wish to meditate for Earth <strong>simultaneously</strong>. It‘s about finding a common time where eveyone can be connected.
-                            By using the power of our collective energy, we can <strong>amplify</strong> the effect and fuel the unified field with the feeling of love, peace and harmony and make a positive change for this world.  The more we are meditating at the same moment on earth, the greater the effect we’ll see.
-                            Find your <strong>daily</strong> local set time to join the collective and Meditate for Earth in the comfort of your home. 
+                            Meditate for Earth is a Global Meditation tool that helps people around the world find a <strong>common time</strong> to meditate for Earth together and everyday. By uniting and using our collective power <strong>daily</strong>, we can <strong>amplify</strong> the effect and make a positive change for this world.
+                            We believe that we are all one being. Although we have used the word <strong>Meditate</strong> on this website, we want to emphasize that we believe in the equal value of the word <strong>Prayer</strong>, as our only objective is to bring people around the world to unite and feel love and compassion for our planet Earth and her beings.
                         
                         </Title>
                     </Column>      

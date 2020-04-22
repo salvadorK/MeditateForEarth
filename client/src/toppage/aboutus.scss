@@ -3,6 +3,7 @@
     background-size: cover;
     min-height: 150vh;
     margin-bottom: 1.5em;
+    background-position: center;
       
     .level-item {
         align-items: center;
@@ -10,8 +11,8 @@
         flex-basis: auto;
         flex-grow: 0;
         flex-shrink: 0;
-        justify-content: center;
-        margin-top: 1em;
+        justify-content: left;
+        margin-left:1em;
     }
     
     .title{
@@ -34,13 +35,17 @@
         line-height: 2em;
         margin:1.5em;
         text-align: left;
-        @media only screen and (max-device-width: 480px) {
-            text-align: center;
-          }           
-           
+                
         strong{
             color: white;       
-        }        
+        }
+    }
+    
+    a{
+        color: #0D5E8B;
+    }
+    a:hover{
+        color: white
     }
     
     a{
@@ -50,3 +55,9 @@
         color: white
     }
 }
+
+@media(max-width:768px){
+    .about .subtitle {
+        text-align: center;
+    }
+} 

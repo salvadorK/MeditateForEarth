@@ -6,7 +6,6 @@
     font-style: normal;
     font-weight: 400;
     
- 
     .lastcurrent{
         margin-top:1em;
         text-align:center;
@@ -14,7 +13,7 @@
     }
 
     .next{
-        margin-top:-1.2em;
+        margin-top:-0.9em;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         font-weight: 800;
@@ -48,4 +47,10 @@
   
 .todaytime{
     font-size: 17px;
+}
+
+@media(max-width:768px){
+    .live .lastcurrent{
+        margin-top:0.5em;
+    }
 }

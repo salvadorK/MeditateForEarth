@@ -12,7 +12,7 @@ export default class Edpage extends Component {
                 
                     <Nav/>
             
-                <Column size={1} offset={1} >
+                <Column size={1} offset={1} className="logoed">
                     <Level>
                         <Level.Item>
                            

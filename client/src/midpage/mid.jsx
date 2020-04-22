@@ -19,17 +19,17 @@ export default class Mid extends Component {
                         <Title className="textinside" subtitle>
                     
                             <strong>We are one</strong>.  Deep within each of us, lays a unified field of consciousness that pervades and connects us all. That is our profound nature.
-                            According to the Global Union of Scientists for Peace, when a relatively small fraction of society engage in transcendental meditation <strong>together</strong>, they can significantly reduce crime, war, social stress and improve the effectivness of government. Radiating the feeling of love and harmony creates coherence in the field  and positively impacts our society.
+                            According to the Global Union of Scientists for Peace, when a relatively small fraction of society engage in transcendental meditation <strong>together</strong>, they can significantly reduce crime, war, social stress and improve the effectiveness of government. Radiating the feeling of love and harmony creates coherence in the field  and positively impacts our society.
                     
                         </Title>
                     </Column> 
                 </Column.Group>   
                 
-                <Column.Group >
-                    <Column size="2" offset="9"> 
+                <Column.Group>
+                    <Column size="4" offset="8"> 
                         <Title className="learnmore" subtitle>
                     
-                            <Link to="/why"> 
+                            <Link to="/why">
                                 <svg width="117" height="36" viewBox="0 0 117 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="105" cy="17" r="12" fill="#FBBA00"/>
                                 <path d="M111.129 17.84H105.777V23.24H104.217V17.84H98.8887V16.4H104.217V11H105.777V16.4H111.129V17.84Z" fill="white"/>

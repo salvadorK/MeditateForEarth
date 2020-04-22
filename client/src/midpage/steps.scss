@@ -49,7 +49,16 @@
      }
 }
 
-        
+@media(max-width:768px){
+    .messagecontent .stepscontent{
+    text-align: center;
+    }
+
+    .steps .how{
+        margin-left: 0.2em;
+        margin-right:0.2em;
+    }
+} 
             
 
 

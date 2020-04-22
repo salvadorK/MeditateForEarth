@@ -8,10 +8,10 @@ export default class Steps extends Component {
 
             <div >
                 <Generic className="steps">
-                    <Column size={2} offset={8}> 
+                    <Column size={3} offset={3}> 
                         <Title subtitle className="how">
 
-                            How to <strong>meditate as one</strong> ...
+                            How to <strong>meditate as one</strong>
 
                         </Title>
                     </Column>  
@@ -31,13 +31,13 @@ export default class Steps extends Component {
                   
                             <Title className="stepstitle">
                          
-                                FIND OUT
+                                YOUR LOCAL TIME
                                 
                             </Title>
                                                 
                             <Title className="stepscontent" subtitle>
                                                 
-                                in the section above, what Is your daily <strong>local</strong> meditation time so you can  connect simultaneously with the rest of the world. Note: the more we are in the world who meditate at the same moment, the greater the effect For the world will be. 
+                                Find your two <strong>local</strong> time options located on our home page and join the collective Global Meditation. 
                                                 
                             </Title>
                         </Column>                
@@ -54,13 +54,14 @@ export default class Steps extends Component {
                     
                             <Title className="stepstitle" >
                                                                 
-                                CONNECT SIMULTANEAOUSLY
+                                CONNECT SIMULTANEOUSLY
                         
                             </Title>
                                                 
                             <Title className="stepscontent" subtitle>
                                                 
-                                Ten minutes prior to the meditation, you can <strong>see</strong> on our home page how many of us are connected worldwide to meditate for Earth at the same moment and amplify the effect.       
+                            Ten minutes prior to the Global Meditation, <strong>show your presence</strong> by clicking on the button located on the home page.
+                            By doing so, you’ll show meditaters around the world that you’re present with them. This will also encourage more people to join this loving exercise.      
                                 
                             </Title>
                                     
@@ -84,11 +85,15 @@ export default class Steps extends Component {
                                                 
                             <Title className="stepscontent" subtitle>
             
+<<<<<<< HEAD
+                                Sit in a comfortable and relaxing environment. Imagine earth shrinking to the size where she can fit in the palm of your hand. Gently place her in the center of your heart and feel your loving connection. Tell Her and let Her truly feel: My heart is your heart, we are One. Your heart is my heart, we are One. Repeat this exercise, she’s a living being and will feel this love. Conduct the rest of the meditation with your heart.
+=======
                                 You can do you own personal meditation by feeling love and harmony for our Earth
                                 <Heading><strong>or</strong></Heading>
                                 Listen to guided meditations that focus intention on our mother Earth
                                 <Heading><strong>or</strong></Heading>
                                 Join influencers on live Earth Meditations 
+>>>>>>> master
    
                             </Title>                  
                         </Column>
