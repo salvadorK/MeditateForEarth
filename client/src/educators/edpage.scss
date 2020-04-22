@@ -1,4 +1,12 @@
-
+.logoed {
+    align-items: center;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: left;
+    margin-top: -1em;
+}
 
 .humans {
  margin-bottom: 1em;
@@ -8,13 +16,9 @@
     text-align: center;
     font-size: 64px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;;
-    margin-top: 1em;
-    
+    font-weight: 200;
      }
  }
-
-
 
 .edname{
     text-align: center;
@@ -28,23 +32,11 @@
     
         a:hover{
             color: #0D5E8B;
-    }
-     
-    
-    
-    
-  
+    }      
 }
-
-
-
-
 
 .edmessage {
     z-index: 1;
     text-align: center;
-    font-style: italic;
-   
-    
-   
+    font-style: italic;      
 }

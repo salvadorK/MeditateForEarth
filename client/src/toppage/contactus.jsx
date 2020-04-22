@@ -54,7 +54,7 @@ export default function Contactus() {
               We’d be happy to hear about you if you have any questions or suggestions. We are opened to any world peace incentives partnership requests.
               <br/>One Love 
               <br/><br/>
-              Or contact us by email on <a href="mailto:info@meditateforearth.com">info@meditateforearth.com</a>
+              Or contact us by email on <a href="mailto:info@meditateforearth.org">info@meditateforearth.org</a>
                       
                 <Title subtitle className="inputmessage">CONTACT US</Title>
        

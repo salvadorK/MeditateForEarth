@@ -16,7 +16,7 @@ export default class Nav extends Component {
               
               <Navbar.Item className="homebutton"><Link to="/">Home</Link></Navbar.Item>
               <Navbar.Item dropdown hoverable className="wholink">
-                <Navbar.Link arrowless>Who we are</Navbar.Link> 
+                <Navbar.Link arrowless>About</Navbar.Link> 
                   <Navbar.Dropdown>
                     <Navbar.Item><Link to="/about">About us</Link></Navbar.Item> 
                     <Navbar.Item><Link to="/educators">Educators</Link></Navbar.Item>

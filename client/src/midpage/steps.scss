@@ -37,9 +37,6 @@
         font-weight: 500;
         line-height: 2em;
         text-align: left;
-        @media only screen and (max-device-width: 480px) {
-            text-align: center;
-          }
         margin: 2em;
 
           h1{
@@ -49,7 +46,16 @@
      }
 }
 
-        
+@media(max-width:768px){
+    .messagecontent .stepscontent{
+    text-align: center;
+    }
+
+    .steps .how{
+        margin-left: 0.2em;
+        margin-right:0.2em;
+    }
+} 
             
 
 

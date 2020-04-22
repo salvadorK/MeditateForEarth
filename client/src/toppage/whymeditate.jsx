@@ -24,14 +24,6 @@ export default class Whymeditate extends Component {
                                 </Level.Item>
                             </Level>
                         </Column>
-
-                        <Column size={3} offset={6}> 
-                            <Title subtitle className="whytitle">
-    
-                                Why <strong>Meditate</strong> together?
-    
-                            </Title>
-                        </Column>   
                     </Column.Group>
                 </Hero>
 
@@ -41,7 +33,7 @@ export default class Whymeditate extends Component {
                             <Title>
                            
                                 <br/>
-                                We are one!
+                                Why <strong>Meditate</strong> together ?
                       
                             </Title>
                         </Column>
@@ -53,7 +45,7 @@ export default class Whymeditate extends Component {
                         <Column size="10" offset="1"> 
                             <Title className="font" subtitle>
                         
-                                Many of us feel insignificant and helpless when confronted with the enormity of the problems our planet faces. The good news is that <strong>we can</strong> effect change <strong>simply</strong>simply through the portal of our mind and our heart. Peer reviewed scientific studies show that when a relatively small fraction of a society engage in meditation <strong>together</strong>, with the intention of peace and harmony, they can significantly <strong>reduce</strong> crime, war, social stress and <strong>improve</strong> the effectiveness of governments. 
+                                Many of us feel insignificant and helpless when confronted with the enormity of the problems our planet faces. The good news is that <strong>we can</strong> effect change <strong>simply</strong> through the portal of our mind and our heart. Peer reviewed scientific studies show that when a relatively small fraction of a society engage in meditation <strong>together</strong>, with the intention of peace and harmony, they can significantly <strong>reduce</strong> crime, war, social stress and <strong>improve</strong> the effectiveness of governments. 
                                 <br/>Although things may not change over night, the Global Union of Scientists for Peace (GUSP.org) have shown that groups <strong>repetitively</strong> practicing meditation <strong>together</strong>, creates peace and harmony in their countries. Our own power <strong>amplified</strong> by uniting as a collective, enables us to create peace, coherence and harmony in the field of our surrounding world. 
                                 source: https://www.gusp.org/brochure/?page=1 
                         
@@ -86,8 +78,8 @@ export default class Whymeditate extends Component {
                         <Column size="10" offset="1"> 
                             <Title className="tuningmessage" subtitle>
                         
-                                Due to the fact that we have 24 time zones, it would be very difficult for everyone to join the collective meditations, as it would force some of us to join in the middle of the night. In order to solve this problem and provide an ideal meditation time for as many people as possible on earth, there are <strong>two</strong> set times per <strong>day</strong> in your city to join the collective meditation. (AM & PM)
-                                You can find the set local times of your city by using the searh tool located on the home page.
+                                Due to the fact that we have 24 time zones, it would be very difficult for everyone to join the collective meditations, as it would force some of us to join in the middle of the night. In order to solve this problem and provide an ideal meditation time for as many people as possible on earth, there are <strong>two</strong> set times per <strong>day</strong> in your city to join the collective meditation (AM & PM).
+                                Choose what time is more suitable for you on our homepage, and join the global collective to meditate for Earth.
                         
                             </Title>
                         </Column>     
@@ -143,7 +135,7 @@ export default class Whymeditate extends Component {
                         <Column size="10" offset="1"> 
                             <Title className="tuningmessage" subtitle>
                         
-                                You can meditate on your own and radiate the <strong>feeling</strong> of <strong>love, peace, kindness, fairness,  harmony and coherence</strong> for our Mother Earth and her living beings or listen to guided meditations that focus on these intentions.  
+                                You can meditate on your own and radiate the <strong>feeling</strong> of <strong>love, peace, kindness, fairness,  harmony and coherence</strong> for our Mother Earth and her living beings or listen to guided meditations that focus on these intentions. Tell Her with your feelings: my heart is your heart, we are One. Your heart is my heart, we are One.
 
                             </Title>
                         </Column>     

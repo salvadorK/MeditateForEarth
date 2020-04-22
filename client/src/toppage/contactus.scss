@@ -1,8 +1,10 @@
 .contact {
-    background-image: url("../assets/CONTACT_US-jeremy-thomas-pq2DJBntZW0-unsplash.png");;
+    background-image: url("../assets/CONTACT_US-jeremy-thomas-pq2DJBntZW0-unsplash.png");
     background-size: cover;
     min-height: 100vh;
-    margin-bottom: 2em; 
+    margin-bottom: 2em;
+    background-position: center;
+    
   
     .level-item {
         align-items: center;
@@ -10,8 +12,8 @@
         flex-basis: auto;
         flex-grow: 0;
         flex-shrink: 0;
-        justify-content: center;
-        margin-top: 1em;
+        justify-content: left;
+        margin-left: 1em;
     }
 
     .subtitle{
@@ -35,14 +37,32 @@
 .infomessage{
     margin-bottom: 2em;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    
 }
 
 .inputmessage{
     margin-top: 2em;
     color: black;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .inputfield{
     margin:1.5em;
 }
+
+@media(max-width:768px){
+    .subtitle {
+        margin-left: 0.2em;
+        margin-right:0.2em;
+}
+    .infomessage{
+        margin-left: 1em;
+        margin-right:1em;
+
+    }
+
+   
+} 

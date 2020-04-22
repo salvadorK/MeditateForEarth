@@ -1,80 +1,67 @@
 .carousel {
-    position:relative; 
-    min-height: 70vh;
-    margin-left:-20em;
-    
-    
-    .pic1 {
-        background-image:url("../assets/CARROUSEL-1-NO-TEXT.jpg") ;
-        background-size: cover;
-        background-position: center;
-        min-height: 70vh;
-        margin-right: 20em;
-        margin-left: -8em;
-        min-width:120vh;    
+    background-image: url("../assets/AdobeStock_226347976.jpeg") ; 
+    background-size: cover;
+    min-height: 60vh; 
+    margin-bottom: 2em; 
+    background-position: center;
+
+    .level-item {
+        align-items: center;
+        display: flex;
+        flex-basis: auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        justify-content: left;
+        margin-left:1em;
     }
-
-    .pic2 {
-        background-image:url("../assets/CARROUSEL-2.png") ;
-        background-size: cover;
-        background-position: center;
-        min-height: 70vh;
-        margin-left: -20em;    
-    }
-
-    .pic3{
-        background-image:url("../assets/CARROUSEL-3.png") ;
-        background-size: cover;
-        background-position: center;
-        min-height: 70vh;
-        margin-right:3em;            
-    }
-
     
-
-     .logolanding{   
-        position: absolute;
-        top: 0em;
-        z-index: 2;
-        left: 25em;
-
-     }
-
-
-     .subtitle {
+     .lets {
         color: white;
+        font-family: 'Poppins', sans-serif;
         font-size: 45px;
         font-weight: 300;
         line-height: 1.125;
-
-        strong{
-            color: white; 
-        }
-    }
-     
-
-
-    }
-   
-    .lets{
-        position: absolute;
+        margin-left:5em;
+        margin-top:3em;
         text-align: center;
-        color: black;
-        font-family: 'Poppins', sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 45px;
-        margin-top:-6em;
-        z-index:50;
-        left: 7.3em;
-        
+
         strong{
             color: white; 
         }
-     } 
-     
+    }
+}
+   
+@media(max-width:768px){
+   .carousel .level-item{
+        width: 25%;
+        margin-top:-0.5em; 
+    }
+
+    .carousel .lets{
+        margin-top:-1em;
+        text-align: center;
+        margin-left:7em;
+    }
     
-      
+} 
+
+
+@media(max-width:480px){ 
+    .carousel .level-item{
+        width: 25%;
+        margin-top:-3.2em; 
+    }
+
+    .carousel .lets{
+        margin-top:1.5em;
+        font-size: 35px;
+        text-align: center;
+        margin-left:0.5em;
+    }
+
+
+
+}
     
     
     
