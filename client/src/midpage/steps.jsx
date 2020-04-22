@@ -85,15 +85,11 @@ export default class Steps extends Component {
                                                 
                             <Title className="stepscontent" subtitle>
             
-<<<<<<< HEAD
-                                Sit in a comfortable and relaxing environment. Imagine earth shrinking to the size where she can fit in the palm of your hand. Gently place her in the center of your heart and feel your loving connection. Tell Her and let Her truly feel: My heart is your heart, we are One. Your heart is my heart, we are One. Repeat this exercise, she’s a living being and will feel this love. Conduct the rest of the meditation with your heart.
-=======
                                 You can do you own personal meditation by feeling love and harmony for our Earth
                                 <Heading><strong>or</strong></Heading>
                                 Listen to guided meditations that focus intention on our mother Earth
                                 <Heading><strong>or</strong></Heading>
                                 Join influencers on live Earth Meditations 
->>>>>>> master
    
                             </Title>                  
                         </Column>

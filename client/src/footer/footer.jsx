@@ -17,29 +17,20 @@ export default class Bottom extends Component {
                     
                         <Column className="social"  size="1" offset="2">
                 
-<<<<<<< HEAD
                             <a href="https://facebook.com/Meditate-for-Earth-112663280388482/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook fa-2x"></i></a>
                     
-=======
-                            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook fa-2x"></i></a>
-                        
->>>>>>> master
                         </Column> 
                 
                         
                         <Column className="social" size="1" >
                         
-                            <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter fa-2x"></i></a>
+                            <a href="http://twitter.com/meditateAs1" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter fa-2x"></i></a>
                         
                         </Column> 
                         
                         <Column className="social" size="1" >
                             
-<<<<<<< HEAD
                             <a href="https://instagram.com/meditateforearth" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-2x"></i></a>
-=======
-                            <a href="http://instagram.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram fa-2x"></i></a>
->>>>>>> master
                         
                         </Column> 
                         
