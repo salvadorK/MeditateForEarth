@@ -19,7 +19,10 @@ export default class Live extends Component {
     }
 
     componentDidMount() {
-        this.socket = socketIOClient('http://localhost:5000/');
+        this.socket = socketIOClient('https://meditate-for-earth.herokuapp.com/', {
+            transports: ['websocket'],
+            rejectUnauthorized: false
+          });
         this.socket.on('init',(data)=>
             this.setState({
                 post: data
@@ -43,10 +46,10 @@ export default class Live extends Component {
     }
     render() {
         let now = moment.tz("Europe/London");
-        let meditate = moment(`${now.format('YYYY-MM-DD')}T09:00:00+01:00`);
-        let meditate2 = moment(`${now.format('YYYY-MM-DD')}T21:00:00+01:00`);
-        let am1 = moment(`${now.format('YYYY-MM-DD')}T08:50:00+01:00`);
-        let am2 = moment(`${now.format('YYYY-MM-DD')}T09:30:00+01:00`);
+        let meditate = moment(`${now.format('YYYY-MM-DD')}T08:00:00+01:00`);
+        let meditate2 = moment(`${now.format('YYYY-MM-DD')}T20:00:00+01:00`);
+        let am1 = moment(`${now.format('YYYY-MM-DD')}T07:50:00+01:00`);
+        let am2 = moment(`${now.format('YYYY-MM-DD')}T08:30:00+01:00`);
         let pm1 = moment(`${now.format('YYYY-MM-DD')}T19:50:00+01:00`);
         let pm2 = moment(`${now.format('YYYY-MM-DD')}T20:30:00+01:00`);
      
@@ -56,8 +59,8 @@ export default class Live extends Component {
         let amresult = moment(now).isBetween(am1,pm1);
 
 
-        let start1 = new Date(pm1).getTime()
-        let end1 = new Date(pm2).getTime()
+        let start1 = new Date(am1).getTime()
+        let end1 = new Date(am2).getTime()
 
 
         let result1 = this.state.post && this.state.post.filter(post => {var time = new Date(post.date).getTime();
@@ -76,6 +79,7 @@ export default class Live extends Component {
            });
         
        
+        
         
 
         return (

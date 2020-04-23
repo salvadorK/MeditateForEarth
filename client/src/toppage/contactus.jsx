@@ -12,7 +12,10 @@ export default function Contactus() {
     const { handleSubmit, errors, control, reset } = useForm();
     const onSubmit = (data,e) => {
         reset();
-        const socket = socketIOClient('http://localhost:5000/');
+        const socket = socketIOClient('https://meditate-for-earth.herokuapp.com/',{
+            transports: ['websocket'],
+            rejectUnauthorized: false
+          });
         socket.emit('contact',data);
   
     };
