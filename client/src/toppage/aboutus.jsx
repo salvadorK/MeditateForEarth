@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Navbar, Hero, Column, Title, Level, Heading} from 'rbx'
+import {Navbar, Hero, Column, Title, Level} from 'rbx'
 import "./aboutus.scss"
 import Nav from "../toppage/nav.jsx";  
 import Bottom from "../footer/footer.jsx"; 
