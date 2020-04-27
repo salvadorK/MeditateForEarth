@@ -19,7 +19,7 @@ export default class Bottom extends Component {
                 
                             <a href="https://facebook.com/Meditate-for-Earth-112663280388482/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook fa-2x"></i></a>
                     
-                        </Column> 
+                    </Column> 
                 
                         
                         <Column className="social" size="1" >
