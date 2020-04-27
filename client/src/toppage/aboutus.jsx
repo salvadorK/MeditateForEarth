@@ -40,8 +40,7 @@ export default class Aboutus extends Component {
                             which is to <strong>Meditate as One</strong>.
                             <br/><br/>
                             This project was able to see the day because of the help of the amazing people listed below who have invested their time, love and knowledge at no cost to contribute in the realizaton of this website.
-                            <br/><br/>
-                            <h1><strong>Olivier Dionne Coutya</strong> : Content Creator</h1>
+                            <br/><br/>                      
                             <h1><strong>Leonie Garand</strong> : Web Design 
                             <br/> <a href="https://en.picotatoo.com/" target="_blank" rel="noopener noreferrer">en.picotatoo.com</a>{''}</h1>
                             <h1><strong>Karl Anthony Salvador</strong>  : Web Development</h1>
@@ -50,7 +49,8 @@ export default class Aboutus extends Component {
                             <h1><strong>Siona Rea</strong> : Co-writer of Earth meditation <a href="http://www.sionarea.com" target="_blank" rel="noopener noreferrer">sionarea.com</a>{''}</h1>
                             <h1><strong>Leon Levisk</strong> : Time Zone Planning <a href="http://www.esoterictrips.com" target="_blank" rel="noopener noreferrer">esoterictrips.com</a>{''}</h1>
                             <h1><strong>Andreas Mantovanis</strong> : Editing </h1>
-                            <h1>Music: Talking to nature live in Thaïland by Shastro
+                            <br />
+                            <h1><strong>Music</strong>: Talking to nature live in Thaïland by Shastro
                             <br/>
                             The beautiful music was offered to us for the Daily Meditation exercise and was recorded during a live meditation in Ko Phangan in Thailand. This musical piece is a special thank you to nature for all the inspiration she has always showered in the life of the artist, Shastro. His music and events are available on:
                             <br/>
@@ -58,7 +58,8 @@ export default class Aboutus extends Component {
                             <br/>
                             <a href="http://www.malimba.com" target="_blank" rel="noopener noreferrer">malimba.com</a>{''}
                             <br/>
-                            <a href="https://www.youtube.com/channel/UCmuVlnoRaIGa9VXua1kkNUw" target="_blank" rel="noopener noreferrer">youtube.com/channel</a>{''}</h1> 
+                            <a href="https://www.youtube.com/channel/UCmuVlnoRaIGa9VXua1kkNUw" target="_blank" rel="noopener noreferrer">youtube.com/channel</a>{''}</h1>
+                            <h1><strong>Olivier Dionne Coutya</strong> : Content Creator</h1> 
                         </Title>
                     </Column>   
                 </Column.Group>
