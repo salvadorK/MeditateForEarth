@@ -23,7 +23,7 @@ export default class Vidpage extends Component {
                        
                     <ReactPlayer
           className='react-player'
-          url='https://youtu.be/ASBJnfDSRhg'
+          url='https://youtu.be/nk7tlM0me-c'
           width='100%'
           playing
           controls
