@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Navbar, Divider} from 'rbx'
+import {Navbar} from 'rbx'
 import {Link} from "react-router-dom"
 import "./nav.scss"
 
@@ -24,7 +24,7 @@ export default class Nav extends Component {
                   </Navbar.Dropdown>
                 </Navbar.Item>
       
-                  <Divider vertical color={"warning"}></Divider>
+                  {/* <Divider vertical color={"warning"}></Divider> */}
        
                 <Navbar.Item className="homebutton">English</Navbar.Item>
             </Navbar.Segment>

@@ -108,17 +108,17 @@ export default class Live extends Component {
                             <Title className="next" >
                                 <Heading >
                                      YOUR NEXT WORLD MEDITATION WILL BE
-                            </Heading>
+                                </Heading>
                             </Title>
-                            <Title className="todaytime" subtitle>
-                                <strong>
-                               Today at {meditate.tz(moment.tz.guess()).format('LT')} and {meditate2.tz(moment.tz.guess()).format('LT')} Local time
-                               </strong>
-                            </Title>
-                            <Title className="next" >
+                                <Title className="todaytime" subtitle>
+                                    <strong>
+                                    Today at {meditate.tz(moment.tz.guess()).format('LT')} and {meditate2.tz(moment.tz.guess()).format('LT')} Local time
+                                    </strong>
+                                </Title>
+                            <Title className="updated" >
                                 <Heading >
                                      <small>(time is updated based on your location)</small>
-                            </Heading>
+                                </Heading>
                             </Title>
                         </Container>
                    </Column>
